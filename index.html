@@ -9,7 +9,7 @@
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>Responsive Portfolio Website</title>
+        <title>Portfolio</title>
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -22,9 +22,9 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                         <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
                 </div>
@@ -39,14 +39,15 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Umesh</span><br>Aspiring Engineer</h1>
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Umesh</span><br></h1>
 
+                    <a href="assets/file/umesh_cv.pdf" download="umesh_cv.pdf" class="button">Download CV</a>
                     <a href="#contact" class="button">Contact</a>
                 </div>
 
                 <div class="home__social">
                     <a href="https://www.linkedin.com/in/umesh-lodha-0260b11a1/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://www.instagram.com/umesh__lodha/" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.instagram.com/" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
                     <a href="https://github.com/umeshlodha1" class="home__social-icon"><i class='bx bxl-github' ></i></a>
                 </div>
 
@@ -63,22 +64,7 @@
                 </div>
             </section>
 
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/aboutimg.png" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'am Umesh</h2>
-                        <p class="about__text">I am a lifelong learner, a travel enthusiast, extremely motivated to constantly develop my skills and grow, Currently I am pursuing Bsc IT and am eager to implement what I have learned in a practical and impactful manner.</p>           
-                    </div>                                   
-                </div>
-            </section>
-
+            
             <!--===== SKILLS =====-->
             <section class="skills section" id="skills">
                 <h2 class="section-title">Skills</h2>
@@ -95,7 +81,7 @@
                             <a class="skillsbtn">FIGMA</a>
                             <a class="skillsbtn">XML</a>
                             <a class="skillsbtn">BLENDER</a>
-                            <a class="skillsbtn">GIT</a>
+                            <a class="skillsbtn">Github</a>
                         </div>
                     
                     
@@ -108,9 +94,9 @@
             <!--===== WORK =====-->
             <section class="work section" id="projects">
                 <h2 class="section-title">Projects</h2>
-                <h5 class="sectionsubtitle">Click to View</h5>
+                <!-- <h5 class="sectionsubtitle">Click to View</h5> -->
 
-                <div class="work__container bd-grid">
+                <!-- <div class="work__container bd-grid">
                     <a href="https://drive.google.com/file/d/1moXodHdcHOnxn8Q0pQ_2FZ_-D3eW11UX/view?usp=sharing" class="work__img">
                         <img src="assets/img/work1.png" alt="">
                     </a>
@@ -120,12 +106,261 @@
                     <a href="https://drive.google.com/file/d/1Xn1O9RH51LCB9TVjIjH1pEa3DeBeCHI4/view?usp=sharing" class="work__img">
                         <img src="assets/img/work3.PNG" alt="">
                     </a>
+                </div> -->
+                <div class="project-main">
+
+
+                    <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                    <img src="assets/img/parkin.png" alt="portfolio item thumb">
+                    </div>
+                    <h3 class="portfolio-item-title">ParkIn Mobile App</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                    <div class="description">
+                    <p>The problem of parking is rising day by day specially in Metropolitan cities like 
+                        Mumbai, Pune, Delhi, Kolkata, Bangalore, Hyderabad, etc. It’s difficult to find a parking 
+                        there is no predictability whether you may or not get parking before leaving the house. 
+                        To Overcome this problem, we came up with ParkIn a parking Booking App that 
+                        reserves parking for you in real time with its powerful AI and real time tracking.
+                        PARKIN helps you to find a car parking area near you and book it digitally from 
+                        any where in advance. It provies Parking of electrical vehicle with easy charging facility 
+                        provided in parking space. User can get estimated cost of charging booking its 
+                        completely based on cashless transaction. Parkin provide smart and secured parking 
+                        solution based on the intelligent RFID/QR Code technology. parking owner can easily 
+                        monitor transactions and manage parking lots and employee. 
+                        </p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                        <li>Created - <span>Feb 2021</span></li>
+                        <li>technologies used - <span>Android, Java, XML, Google Maps API, RFID, Firebase, Razorpay</span></li>
+                        <li>Awards- <span>First Prize National Project Competition, CSI</span></li>
+                        <li>View Demo- <span><a href="#" target="_blank"></a></span></li>
+                        </ul>
+                    </div>
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius: 10px;" width="100%" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FM5YkaGSCtLsOWglwAfDzQp%2FUntitled%3Ftype%3Ddesign%26node-id%3D1-6%26t%3DKyQv4gsXFUD2XN6P-1%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A6%26mode%3Ddesign" allowfullscreen></iframe>
                 </div>
+                </div>
+                <!-- Portfolio Item End -->
+                    <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                    <img src="assets/img/kjsim_app.png" alt="portfolio item thumb">
+                    </div>
+                    <h3 class="portfolio-item-title">Somaiya College App</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                    <div class="description">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis ab nobis eaque
+                    optio excepturi tempore, cumque porro ex natus repudiandae vero repellendus ipsa
+                    possimus illum quisquam hic vitae blanditiis, alias consequuntur? Necessitatibus ipsa
+                    ex fugit cupiditate a ea amet saepe.</p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                        <li>Created - <span>September 2022</span></li>
+                        <li>technologies used - <span>Android, Java, MySQL, Firebase</span></li>
+                        <li>Category- <span>Android App</span></li>
+                        <li>Screens- <span><a href="#" target="_blank"></a></span></li>
+                        </ul>
+                    </div>
+                    <img src="assets/img/somaiya_all.png" alt="somaiya app screenshots" style="border-radius: 10px;">
+                </div>
+                </div>
+                <!-- Portfolio Item End -->
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                    <img src="assets/img/safetify.png" alt="portfolio item thumb">
+                    </div>
+                    <h3 class="portfolio-item-title">Safetify Women Safety App</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                    <div class="description">
+                    <p>Safetify is a mobile app that helps to send alerts and notify your family and friends in case of emergencies.
+                        Features:
+                        SOS feature sends out an alert message to your trusted contacts with your current or last known location(in case of no internet)
+                        “Find Me” feature shares your live location with your trusted contacts. Additionally, you can send text messages, image and voice updates like taxi number plate while traveling.
+                        Locate and navigate Nearby Safe Places such as police stations, hospitals
+                        Learn feature allows you to learn self-defense techniques, each technique has step by step clear description and visuals
+                        Emergency helpline number to directly call from the app.</p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                        <li>Created - <span>March 2022</span></li>
+                        <li>technologies used - <span>Android, Java, XML, Google Maps API, Firebase</span></li>
+                        <li>Awards- <span>Best UI , Built at Inspiron'22</span></li>
+                        <li>View - <span><a href="https://devfolio.co/projects/safetify-a18a" target="_blank">devfolio.co/projects/safetify</a></span></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                </div>
+                <!-- Portfolio Item End -->
+                
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                    <img src="assets/img/newsite.PNG" alt="portfolio item thumb">
+                    </div>
+                    <h3 class="portfolio-item-title">News Website</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                    <div class="description">
+                    <p>This news website is equipped with a comprehensive administrative control system, an editor panel, and an innovative news subscription feature. The admin control facilitates efficient management of the platform, ensuring seamless operations and content oversight. The editor panel allows for easy content creation, editing, and publication, empowering editorial teams to deliver timely and engaging news.
+
+                        One of the standout features is the News Subscriptions functionality, enabling users to stay updated effortlessly. Through the integration of PHPMailer, the platform ensures efficient and reliable email notifications for subscribers, delivering the latest news directly to their inboxes. This combination of robust administrative tools, an editor-friendly interface, and a user-friendly subscription system makes the website a dynamic and user-centric hub for staying informed.
+                        </p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                        <li>Created - <span>December 2022</span></li>
+                        <li>technologies used - <span>PHP, HTML, CSS, MySQL</span></li>
+                        <li>Extra- <span>PhpMailer</span></li>
+                        <li>View Github - <span><a href="https://github.com/umeshlodha1/News-Website" target="_blank">github.com/umeshlodha1/News-Website</a></span></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                </div>
+                <!-- Portfolio Item End -->
+                 <!-- Portfolio Item Start -->
+                 <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                    <img src="assets/img/MindBody.png" alt="portfolio item thumb">
+                    </div>
+                    <h3 class="portfolio-item-title">MindBody App UI</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                    <div class="description">
+                    <p>Mental health monitoring and support system that provides  individuals  with  personalized  reports  and  support  for  their  mental health needs with customized suggestions. The system will use a combination of machine learning and AI algorithms to monitor an individual's mental health and provide them mental health report with recommendations. Monitor data through smart watch and provide insights into mental health. Send SOS in case of emergency
+                    </p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                        <li>Created - <span>4 Dec 2020</span></li>
+                        <li>technologies used - <span>Figma, Canva</span></li>
+                        <li>Category- <span>UI/UX</span></li>
+                        <li>View Demo- <span><a href="#" target="_blank"></a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <!-- Portfolio Item End -->
+                
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                    <img src="assets/img/smmpreview.PNG" alt="portfolio item thumb">
+                    </div>
+                    <h3 class="portfolio-item-title">SuperMarket Management</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                    <div class="description">
+                    <p>Developed Python and Mysql based dynamic
+                        desktop app for Supermarket billing, product
+                        management and employee management.
+                        Used SMTP server for sending bill to customer.
+                        </p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                        <li>Created - <span>5 Jan 2020</span></li>
+                        <li>technologies used - <span>Python,MySQL</span></li>
+                        <li>Type- <span>Desktop GUI</span></li>
+                        <li>View Github - <span><a href="https://github.com/umeshlodha1/SuperMarket-Managment-System/tree/master" target="_blank">github.com/umeshlodha1/SuperMarket-Managment-System</a></span></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                </div>
+                <!-- Portfolio Item End -->
+                
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                    <img src="assets/img/image1 1.png" alt="portfolio item thumb">
+                    </div>
+                    <h3 class="portfolio-item-title">Dairy Products website UI</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                    <div class="description">
+                    <p>A User Interface Design for Premium and Fresh Dairy Products. This is a landing page for a dairy product manufacturing company which would list products, about company and a contact form.</p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                        <li>Created - <span>15 Dec 2023</span></li>
+                        <li>Tools used - <span>Figma, Canva</span></li>
+                        <li>Category- <span>UI/UX</span></li>
+                        <li>View Demo - <span><a href="#" target="_blank"></a></span></li>
+                        </ul>
+                    </div>
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius: 10px;" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F1fCWQsS7sH8LruKl2t0mjg%2FMy-Dairy%3Ftype%3Ddesign%26node-id%3D1-22%26t%3DoPrPExCFSN1d3vsk-1%26scaling%3Dscale-down-width%26page-id%3D0%253A1%26mode%3Ddesign" allowfullscreen></iframe>
+
+                </div>
+                </div>
+                <!-- Portfolio Item End -->
+               
+            </div>
+
+            <div class="portfolio-popup">
+                <div class="pp-inner">
+                    <div class="pp-content">
+                        <div class="pp-header">
+                            <button type="button" class="btn pp-close"><i class='bx bxs-x-circle'></i></button>
+                            <div class="pp-thumbnail">
+                                <img src="assets/img/work2.png" alt="pp-thumbnial">
+                            </div>
+                            <h3>App Landing Page</h3>
+                        </div>
+                        <div class="pp-body">
+                            <div class="description">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis ab nobis eaque
+                                optio excepturi tempore, cumque porro ex natus repudiandae vero repellendus ipsa
+                                possimus illum quisquam hic vitae blanditiis, alias consequuntur? Necessitatibus ipsa
+                                ex fugit cupiditate a ea amet saepe.</p>
+                                </div>
+                                <div class="general-info">
+                                    <ul>
+                                    <li>Created - <span>4 Dec 2020</span></li>
+                                    <li>technologies used - <span>Html, css</span></li>
+                                    <li>Role- <span>Frontend</span></li>
+                                    <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></li>
+                                    </ul>
+                                </div>
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
             </section>
+
+
+
+<!--===== ABOUT =====-->
+<section class="about section " id="about">
+    <h2 class="section-title">About</h2>
+
+    <div class="about__container bd-grid">
+        <div class="about__img">
+            <img src="assets/img/aboutimg.png" alt="">
+        </div>
+        
+        <div>
+            <h2 class="about__subtitle">I'am Umesh</h2>
+            <p class="about__text">I am a lifelong learner, a travel enthusiast, and extremely motivated to constantly develop my skills and grow, Currently, I am pursuing MCA from K J Somaiya Institute of Management and am eager to implement what I have learned in a practical and impactful manner.</p>           
+        </div>                                   
+    </div>
+</section>
+
+
 
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
                 <h2 class="section-title">Contact</h2>
+                 <!-- <h5 class="sectionsubtitle">Click to View</h5> -->
 
                 <div class="contact__container bd-grid">
                     <form action="" class="contact__form">
@@ -140,10 +375,10 @@
 
         <!--===== FOOTER =====-->
         <footer class="footer">
-            <p class="footer__title">Umesh</p>
+            <p class="footer__title">Umesh Lodha</p>
             <div class="footer__social">
                 <a href="https://www.linkedin.com/in/umesh-lodha-0260b11a1/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
-                <a href="https://www.instagram.com/umesh__lodha/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.instagram.com/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
                 <a href="https://github.com/umeshlodha1" class="footer__icon"><i class='bx bxl-github' ></i></a>
             </div>
             <p class="footer__copy">&#169; Umesh Lodha. All rigths reserved</p>

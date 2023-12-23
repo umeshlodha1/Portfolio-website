@@ -54,3 +54,30 @@ sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{});
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
+
+
+
+/* Portfolio Item Details Popup */
+document.addEventListener("click", (e) =>{
+    if(e.target.classList.contains("view-project-btn")){
+        togglePortfolioPopup();
+        portfolioItemDetails(e.target.parentElement);
+     }
+})
+function togglePortfolioPopup(){
+    
+    document.querySelector(".portfolio-popup").classList.toggle("open");
+    document.body.classList.toggle("hide-scrolling");
+}
+document.querySelector(".pp-close").addEventListener("click",togglePortfolioPopup);
+
+function portfolioItemDetails(portfolioItem){
+    document.querySelector(".pp-thumbnail img").src =
+    portfolioItem.querySelector(".portfolio-item-thumbnail img").src;
+
+    document.querySelector(".pp-header h3").innerHTML =
+    portfolioItem.querySelector(".portfolio-item-title").innerHTML;
+    document.querySelector(".pp-body").innerHTML =
+    portfolioItem.querySelector(".portfolio-item-details").innerHTML;
+
+}
